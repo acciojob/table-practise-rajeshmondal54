@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Details</title>
+    <title>Student Details Table</title>
     <style>
         table {
+            width: 50%;
             background-color: yellow;
             border-collapse: collapse;
-            width: auto;
-            margin: 0 auto;
+            margin: 20px auto;
         }
-        caption {
-            font-size: 1.5em;
-            margin-bottom: 10px;
+        table, th, td {
+            border: 1px solid black;
         }
         th, td {
-            border: 1px solid black;
-            padding: 8px;
+            padding: 10px;
             text-align: center;
         }
         th {
             font-weight: bold;
         }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
+
     <table>
         <caption>Student Details</caption>
         <thead>
@@ -48,5 +53,6 @@
             </tr>
         </tbody>
     </table>
+
 </body>
 </html>
